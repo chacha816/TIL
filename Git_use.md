@@ -51,8 +51,8 @@ git remote remove origin
 * git push
 
 ~~~
-git push -u origin 'branches명'
-git push -u origin master
+git push -u '별칭' 'branches명'
+git push -u TIL master
 git push -u origin main
 ~~~
 
