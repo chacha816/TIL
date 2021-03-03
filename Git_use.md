@@ -55,7 +55,10 @@ git push -u '별칭' 'branches명'
 git push -u TIL master
 git push -u origin main
 ~~~
-
+▶ 만약 push 중 에러가 생기면
+1) git pull '별칭' 'branches명'
+2) git push --set-upstream '별칭' 'branches명'
+3) 그래도 안된다면, +'branches명'로 실행하면 해결은 되지만 다른 파일이 깨지꺼나 새로운 문제가...
 
 
 * push 실행 후, Github 유저네임과 비번 입력하면 완료!
